@@ -1,0 +1,18 @@
+{
+  "builders": [
+    {
+      "image": "linode/debian9",
+      "image_description": "My private packer image",
+      "image_label": "my-private-packer-image",
+      "instance_label": "temp-linode-packer",
+      "instance_type": "g6-nanode-1",
+      "linode_token": "{{user `my_linode_token` }}",
+      "region": "us-east",
+      "ssh_username": "root",
+      "type": "linode"
+    }
+  ],
+  "variables": {
+    "my_linode_token": "{{env `LINODE_TOKEN` }}"
+  }
+}
