@@ -7,7 +7,9 @@
 
 ## Usage
 
-Requires
+Requires your Personal Access Token as an Environmental Variable.
+
+Module automatically generate your instance root password amd SSH key.
 
 ```bash
 export LINODE_TOKEN="xxxxx"
@@ -58,6 +60,10 @@ module "instance" {
 | ssh | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## Tests
+
+This module is to serve as sample data for Checkov SAST rules.
 
 ### Contributors
 
