@@ -11,6 +11,7 @@ Requires
 
 ```bash
 export LINODE_TOKEN="xxxxx"
+```
 
 Include this repository as a module in your existing Terraform code:
 
