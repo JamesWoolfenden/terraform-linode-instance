@@ -29,36 +29,51 @@ module "instance" {
 
 | Name | Version |
 |------|---------|
-| linode | 1.13.4 |
-| local | 2.0.0 |
-| random | 3.0.0 |
-| tls | 3.0.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=0.14.8 |
+| <a name="requirement_linode"></a> [linode](#requirement\_linode) | 1.16.0 |
+| <a name="requirement_local"></a> [local](#requirement\_local) | 2.0.0 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | 3.0.0 |
+| <a name="requirement_tls"></a> [tls](#requirement\_tls) | 3.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| linode | 1.13.4 |
-| local | 2.0.0 |
-| random | 3.0.0 |
-| tls | 3.0.0 |
+| <a name="provider_linode"></a> [linode](#provider\_linode) | 1.16.0 |
+| <a name="provider_local"></a> [local](#provider\_local) | 2.0.0 |
+| <a name="provider_random"></a> [random](#provider\_random) | 3.0.0 |
+| <a name="provider_tls"></a> [tls](#provider\_tls) | 3.0.0 |
+
+## Modules
+
+No modules.
+
+## Resources
+
+| Name | Type |
+|------|------|
+| [linode_instance.example](https://registry.terraform.io/providers/linode/linode/1.16.0/docs/resources/instance) | resource |
+| [local_file.private_ssh](https://registry.terraform.io/providers/hashicorp/local/2.0.0/docs/resources/file) | resource |
+| [local_file.public_ssh](https://registry.terraform.io/providers/hashicorp/local/2.0.0/docs/resources/file) | resource |
+| [random_password.password](https://registry.terraform.io/providers/hashicorp/random/3.0.0/docs/resources/password) | resource |
+| [random_string.rando](https://registry.terraform.io/providers/hashicorp/random/3.0.0/docs/resources/string) | resource |
+| [tls_private_key.ssh](https://registry.terraform.io/providers/hashicorp/tls/3.0.0/docs/resources/private_key) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| image | Linode Image type to use | `string` | `"linode/ubuntu18.04"` | no |
-| region | The Linode region to use | `string` | `"eu-west"` | no |
-| type | The image size type to use | `string` | `"g6-standard-1"` | no |
+| <a name="input_image"></a> [image](#input\_image) | Linode Image type to use | `string` | `"linode/ubuntu18.04"` | no |
+| <a name="input_region"></a> [region](#input\_region) | The Linode region to use | `string` | `"eu-west"` | no |
+| <a name="input_type"></a> [type](#input\_type) | The image size type to use | `string` | `"g6-standard-1"` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| instance | n/a |
-| password | n/a |
-| ssh | n/a |
-
+| <a name="output_instance"></a> [instance](#output\_instance) | n/a |
+| <a name="output_password"></a> [password](#output\_password) | n/a |
+| <a name="output_ssh"></a> [ssh](#output\_ssh) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Tests

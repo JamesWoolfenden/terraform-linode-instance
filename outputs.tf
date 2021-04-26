@@ -1,5 +1,6 @@
 output "ssh" {
-  value = tls_private_key.ssh
+  value     = tls_private_key.ssh
+  sensitive = true
 }
 
 output "password" {
@@ -8,5 +9,6 @@ output "password" {
 }
 
 output "instance" {
-  value = linode_instance.example
+  value     = linode_instance.example
+  sensitive = true
 }
