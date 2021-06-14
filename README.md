@@ -30,7 +30,7 @@ module "instance" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=0.14.8 |
-| <a name="requirement_linode"></a> [linode](#requirement\_linode) | 1.16.0 |
+| <a name="requirement_linode"></a> [linode](#requirement\_linode) | >=1.16.0 |
 | <a name="requirement_local"></a> [local](#requirement\_local) | 2.0.0 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | 3.0.0 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | 3.0.0 |
@@ -39,7 +39,7 @@ module "instance" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_linode"></a> [linode](#provider\_linode) | 1.16.0 |
+| <a name="provider_linode"></a> [linode](#provider\_linode) | >=1.16.0 |
 | <a name="provider_local"></a> [local](#provider\_local) | 2.0.0 |
 | <a name="provider_random"></a> [random](#provider\_random) | 3.0.0 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 3.0.0 |
@@ -52,7 +52,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [linode_instance.example](https://registry.terraform.io/providers/linode/linode/1.16.0/docs/resources/instance) | resource |
+| [linode_instance.example](https://registry.terraform.io/providers/linode/linode/latest/docs/resources/instance) | resource |
 | [local_file.private_ssh](https://registry.terraform.io/providers/hashicorp/local/2.0.0/docs/resources/file) | resource |
 | [local_file.public_ssh](https://registry.terraform.io/providers/hashicorp/local/2.0.0/docs/resources/file) | resource |
 | [random_password.password](https://registry.terraform.io/providers/hashicorp/random/3.0.0/docs/resources/password) | resource |
