@@ -39,7 +39,7 @@ module "instance" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_linode"></a> [linode](#provider\_linode) | >=1.16.0 |
+| <a name="provider_linode"></a> [linode](#provider\_linode) | 1.13.4 |
 | <a name="provider_local"></a> [local](#provider\_local) | 2.0.0 |
 | <a name="provider_random"></a> [random](#provider\_random) | 3.0.0 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 3.0.0 |
