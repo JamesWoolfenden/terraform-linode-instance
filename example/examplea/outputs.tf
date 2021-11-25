@@ -8,7 +8,6 @@ output "password" {
   sensitive = true
 }
 
-output "instance" {
-  value     = module.instance.instance
-  sensitive = true
+output "instance_id" {
+  value = module.instance.instance_id
 }

@@ -71,7 +71,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_instance"></a> [instance](#output\_instance) | n/a |
+| <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | n/a |
 | <a name="output_password"></a> [password](#output\_password) | n/a |
 | <a name="output_ssh"></a> [ssh](#output\_ssh) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

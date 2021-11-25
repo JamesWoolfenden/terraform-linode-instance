@@ -8,7 +8,6 @@ output "password" {
   sensitive = true
 }
 
-output "instance" {
-  value     = linode_instance.example
-  sensitive = true
+output "instance_id" {
+  value = linode_instance.example.id
 }
